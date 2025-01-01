@@ -17,7 +17,7 @@ Before using MGGNN, update the file paths in MGGNN.py to match your local direct
 
 To run the model, use the following command:
 
-python MGGNN.py \<br />
+python MGGNN.py \\
 &emsp;--SAMPLE 'control' \<br />
 &emsp;--N_CLUSTERS 7 \<br />
 &emsp;--N_EPOCHS 100 \<br />
