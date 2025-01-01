@@ -17,16 +17,16 @@ Before using MGGNN, update the file paths in MGGNN.py to match your local direct
 
 To run the model, use the following command:
 
-python MGGNN.py \
-    --SAMPLE 'control' \
-    --N_CLUSTERS 7 \
-    --N_EPOCHS 100 \
-    --W1 10 \
-    --W2 1 \
-    --EARLY_STOPPING 0.9
+python MGGNN.py \<br />
+&emsp;--SAMPLE 'control' \<br />
+&emsp;--N_CLUSTERS 7 \<br />
+&emsp;--N_EPOCHS 100 \<br />
+&emsp;--W1 10 \<br />
+&emsp;--W2 1 \<br />
+&emsp;--EARLY_STOPPING 0.9
 
 Parameters:
-	•	--SAMPLE: Name of the sample to process (e.g., 'control').
+	• --SAMPLE: Name of the sample to process (e.g., 'control').
 	•	--N_CLUSTERS: Number of clusters to identify.
 	•	--N_EPOCHS: Number of training epochs.
 	•	--W1: Weight for reconstruction loss.
