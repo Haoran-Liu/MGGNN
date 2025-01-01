@@ -20,3 +20,11 @@ python MGGNN.py \
     --W1 10 \
     --W2 1 \
     --EARLY_STOPPING 0.9
+
+Below are the parameters you can set when running MGGNN.py:
+	•	--SAMPLE: Name of the sample to process (e.g., 'control').
+	•	--N_CLUSTERS: Number of clusters to identify.
+	•	--N_EPOCHS: Number of training epochs.
+	•	--W1: Weight for reconstruction loss.
+	•	--W2: Weight for contrastive loss.
+	•	--EARLY_STOPPING: Early stopping threshold.
