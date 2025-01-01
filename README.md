@@ -7,13 +7,13 @@ To get started, create a conda environment for MGGNN by following the instructio
 
 # Spot Identification
 
-The Spots_identification folder contains code for identifying spots using marker genes. Users can also provide their own pre-defined spots as input for the model.
+The spots_identification folder contains code for identifying spots using marker genes. Users can also provide their own pre-defined spots as input for the model.
 
 # Preparing for MGGNN
 
 Before using MGGNN, update the file paths in MGGNN.py to match your local directory structure.
 
-Running MGGNN
+# Running MGGNN
 
 To run the model, use the following command:
 
